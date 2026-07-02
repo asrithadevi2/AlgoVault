@@ -538,3 +538,15 @@ textarea::placeholder {
 .pattern-row strong {
   color: #2563eb;
 }
+input,
+textarea,
+select {
+  color: #172033 !important;
+  background: #ffffff !important;
+  caret-color: #2563eb !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #9ca3af !important;
+}
